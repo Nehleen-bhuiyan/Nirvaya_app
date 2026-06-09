@@ -124,7 +124,7 @@ const geocodeDestination = async (destination) => {
   const params = new URLSearchParams({
     text: destination,
     "boundary.country": "BD",
-    size: "1",
+    size: "5",
   });
 
   const response = await fetch(
